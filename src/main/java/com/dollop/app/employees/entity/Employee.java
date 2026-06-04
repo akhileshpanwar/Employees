@@ -32,11 +32,11 @@ public class Employee {
 	    @Column(name = "first_name", nullable = false, length = 100)
 	    @NotBlank
 	    @Size(max = 100)
-	    private String firstName;
+	    private String employeeFirstName;
 
 	    @Column(name = "last_name", length = 100)
 	    @Size(max = 100)
-	    private String lastName;
+	    private String employeeLastName;
 
 	    @Column(nullable = false, unique = true, length = 150)
 	    @Email
