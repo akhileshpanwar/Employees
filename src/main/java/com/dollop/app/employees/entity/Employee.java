@@ -32,7 +32,7 @@ public class Employee {
 	    @Column(name = "first_name", nullable = false, length = 100)
 	    @NotBlank
 	    @Size(max = 100)
-	    private String firstName;
+	    private String name;
 
 	    @Column(name = "last_name", length = 100)
 	    @Size(max = 100)
